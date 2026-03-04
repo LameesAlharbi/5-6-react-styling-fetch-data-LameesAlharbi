@@ -225,6 +225,7 @@ export default function App() {
       setLoading(false);
     }
   };
+  fetchUsers();
   }, []);
 
   /* =========================================================
